@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\setlength\parindent{0pt}
+\begin{document}
+    
+    \section{Fields}
+
+        \textbf{Definition: } A field is a set with two operations:\\
+
+        $+: F \times F \longrightarrow F , \qquad (a , b) \longmapsto a + b$ \\
+        
+        $*: F \times F \longrightarrow F , \qquad (a , b) \longmapsto ab $ \\
+
+        
+        \textbf{Axioms of a field: }
+        \begin{itemize}
+            \item (F1) $ a + b = b + a, \quad ab = ba \quad \forall a , b \in F $
+            \item (F2) $ (a + b) + c = a + (b + c) , \quad(ab)c = a(bc) \quad \forall a , b , c \in F $
+            \item (F3) There are $0_F ,\: 1_F \in F \:\: s.t. \:\: 0_F + a = a,\: 1_F * a = a \quad \forall a \in F$
+            \item (F4) $\forall a, \:b \neq 0 \in F, \: \exists c, \: d \in F \:\: s.t. \:\: a + c = 0, \: bd = 1$
+            \item (F5) $a(b + c) = ab + bc \quad \forall a, \:b,\: c \in F$
+        \end{itemize}
+
+        \textbf{Examples: }
+        $ \mathbb{Q},\: \mathbb{R},\: \mathbb{C} ,\: \mathbb{Z} / p\mathbb{Z}$ where $p$ is prime \\
+
+        \textbf{Non-examples: }
+        $ \mathbb{N},\: \mathbb{Z},\: \mathbb{R}^{2 \times 2} ,\: \mathbb{Z} / p\mathbb{Z}$
+\end{document}
